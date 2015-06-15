@@ -4,7 +4,7 @@ a [Sails](http://sailsjs.org) application with basic passport login and mongodb 
 
 to launch, clone it, cd into the directory you've just created and run:
 
-<code>npm install<code>
+<code>npm install</code>
 to install all dependencies and then run
 
 <code>sails lift</code>
