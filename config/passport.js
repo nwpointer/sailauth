@@ -19,19 +19,19 @@ module.exports.passport = {
     strategy: require('passport-local').Strategy
   },
 
-  bearer: {
-    strategy: require('passport-http-bearer').Strategy
-  },
+  // bearer: {
+  //   strategy: require('passport-http-bearer').Strategy
+  // },
 
-  twitter: {
-    name: 'Twitter',
-    protocol: 'oauth',
-    strategy: require('passport-twitter').Strategy,
-    options: {
-      consumerKey: 'your-consumer-key',
-      consumerSecret: 'your-consumer-secret'
-    }
-  }
+  // twitter: {
+  //   name: 'Twitter',
+  //   protocol: 'oauth',
+  //   strategy: require('passport-twitter').Strategy,
+  //   options: {
+  //     consumerKey: 'your-consumer-key',
+  //     consumerSecret: 'your-consumer-secret'
+  //   }
+  // }
 
   // github: {
   //   name: 'GitHub',
